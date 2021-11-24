@@ -4,8 +4,8 @@ const prompts = [
   ["help", "assistance", "please help me"],
   ["account", "profile", "user"],
   ["seed", "crop", "plant"],
-  ["fertilizer", "manure", "fertiliser", "plant food"],
-  ["who created you", "who made you"],
+  ["fertilizer", "manure", "plant food"],
+  ["farming equipment, machinery, equipment"],
   [
     "your name please",
     "your name",
