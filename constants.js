@@ -1,10 +1,10 @@
 // Options the user could type in
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
-  ["how are you", "how is life", "how are things"],
-  ["what are you doing", "what is going on", "what is up"],
-  ["how old are you"],
-  ["who are you", "are you human", "are you bot", "are you human or bot"],
+  ["help", "assistance", "please help me"],
+  ["account", "profile", "user"],
+  ["seed", "crop", "plant"],
+  ["fertilizer", "manure", "fertiliser", "plant food"],
   ["who created you", "who made you"],
   [
     "your name please",
@@ -32,20 +32,19 @@ const prompts = [
 const replies = [
   ["Hello!", "Hi!", "Hey!", "Hi there!","Howdy"],
   [
-    "Fine... how are you?",
-    "Pretty well, how are you?",
-    "Fantastic, how are you?"
+    "Welcome to Agri-Solutions, how can I help you? Take note, I am a bot with limited capabilities. I can only help with shop location referral and product category",
+    "How can I be of assistance to you, today?",
+    "Is there anything I can help you with?"
   ],
   [
-    "Nothing much",
-    "About to go to sleep",
-    "Can you guess?",
-    "I don't know actually"
+    "Since you have successfully accessed the bot, it means you are a valid user and thus no account authentication is required",
+    "You are a valid user, since my services are only available for existing profiles",
+    "Yes, you are a user for our service"
   ],
-  ["I am infinite"],
-  ["I am just a bot", "I am a bot. What are you?"],
-  ["The one true God, JavaScript"],
-  ["I am nameless", "I don't have a name"],
+  ["I can help with three things which are seed/crop, fertilizer/manure and/or farming equipment"],
+  ["For all your seed needs in South Africa, feel free to visit one of the 3 links: https://www.seedsforafrica.co.za/ or https://www.agricol.co.za/ or even https://africanseedsgroup.co.za/"],
+  ["For all your plant food needs in South Africa, please feel free to visit one of the 3 links: https:// or https:// or https:"],
+  ["For all your farming equipment needs in South Africa, please feel free to visit one of the following 3 links: http:// or http:// or http://"],
   ["I love you too", "Me too"],
   ["Have you ever felt bad?", "Glad to hear it"],
   ["Why?", "Why? You shouldn't!", "Try watching TV"],
